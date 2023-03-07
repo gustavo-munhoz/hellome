@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B359147729B6C42700C6A543 /* hellomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147629B6C42700C6A543 /* hellomeApp.swift */; };
+		B359147929B6C42700C6A543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147829B6C42700C6A543 /* ContentView.swift */; };
+		B359147B29B6C42800C6A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147A29B6C42800C6A543 /* Assets.xcassets */; };
+		B359147E29B6C42800C6A543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147D29B6C42800C6A543 /* Preview Assets.xcassets */; };
+		B359148829B6C42800C6A543 /* hellomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359148729B6C42800C6A543 /* hellomeTests.swift */; };
+		B359149229B6C42800C6A543 /* hellomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149129B6C42800C6A543 /* hellomeUITests.swift */; };
+		B359149429B6C42800C6A543 /* hellomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B359148429B6C42800C6A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B359146B29B6C42700C6A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B359147229B6C42700C6A543;
+			remoteInfo = hellome;
+		};
+		B359148E29B6C42800C6A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B359146B29B6C42700C6A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B359147229B6C42700C6A543;
+			remoteInfo = hellome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B359147329B6C42700C6A543 /* hellome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B359147629B6C42700C6A543 /* hellomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeApp.swift; sourceTree = "<group>"; };
+		B359147829B6C42700C6A543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B359147A29B6C42800C6A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B359147D29B6C42800C6A543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B359148329B6C42800C6A543 /* hellomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B359148729B6C42800C6A543 /* hellomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeTests.swift; sourceTree = "<group>"; };
+		B359148D29B6C42800C6A543 /* hellomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B359149129B6C42800C6A543 /* hellomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITests.swift; sourceTree = "<group>"; };
+		B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B359147029B6C42700C6A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359148029B6C42800C6A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359148A29B6C42800C6A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B359146A29B6C42700C6A543 = {
+			isa = PBXGroup;
+			children = (
+				B359147529B6C42700C6A543 /* hellome */,
+				B359148629B6C42800C6A543 /* hellomeTests */,
+				B359149029B6C42800C6A543 /* hellomeUITests */,
+				B359147429B6C42700C6A543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B359147429B6C42700C6A543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B359147329B6C42700C6A543 /* hellome.app */,
+				B359148329B6C42800C6A543 /* hellomeTests.xctest */,
+				B359148D29B6C42800C6A543 /* hellomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B359147529B6C42700C6A543 /* hellome */ = {
+			isa = PBXGroup;
+			children = (
+				B359147629B6C42700C6A543 /* hellomeApp.swift */,
+				B359147829B6C42700C6A543 /* ContentView.swift */,
+				B359147A29B6C42800C6A543 /* Assets.xcassets */,
+				B359147C29B6C42800C6A543 /* Preview Content */,
+			);
+			path = hellome;
+			sourceTree = "<group>";
+		};
+		B359147C29B6C42800C6A543 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B359147D29B6C42800C6A543 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B359148629B6C42800C6A543 /* hellomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B359148729B6C42800C6A543 /* hellomeTests.swift */,
+			);
+			path = hellomeTests;
+			sourceTree = "<group>";
+		};
+		B359149029B6C42800C6A543 /* hellomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B359149129B6C42800C6A543 /* hellomeUITests.swift */,
+				B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */,
+			);
+			path = hellomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B359147229B6C42700C6A543 /* hellome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B359149729B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellome" */;
+			buildPhases = (
+				B359146F29B6C42700C6A543 /* Sources */,
+				B359147029B6C42700C6A543 /* Frameworks */,
+				B359147129B6C42700C6A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellome;
+			productName = hellome;
+			productReference = B359147329B6C42700C6A543 /* hellome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B359148229B6C42800C6A543 /* hellomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B359149A29B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellomeTests" */;
+			buildPhases = (
+				B359147F29B6C42800C6A543 /* Sources */,
+				B359148029B6C42800C6A543 /* Frameworks */,
+				B359148129B6C42800C6A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B359148529B6C42800C6A543 /* PBXTargetDependency */,
+			);
+			name = hellomeTests;
+			productName = hellomeTests;
+			productReference = B359148329B6C42800C6A543 /* hellomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B359148C29B6C42800C6A543 /* hellomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B359149D29B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellomeUITests" */;
+			buildPhases = (
+				B359148929B6C42800C6A543 /* Sources */,
+				B359148A29B6C42800C6A543 /* Frameworks */,
+				B359148B29B6C42800C6A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B359148F29B6C42800C6A543 /* PBXTargetDependency */,
+			);
+			name = hellomeUITests;
+			productName = hellomeUITests;
+			productReference = B359148D29B6C42800C6A543 /* hellomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B359146B29B6C42700C6A543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B359147229B6C42700C6A543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B359148229B6C42800C6A543 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B359147229B6C42700C6A543;
+					};
+					B359148C29B6C42800C6A543 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B359147229B6C42700C6A543;
+					};
+				};
+			};
+			buildConfigurationList = B359146E29B6C42700C6A543 /* Build configuration list for PBXProject "hellome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B359146A29B6C42700C6A543;
+			productRefGroup = B359147429B6C42700C6A543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B359147229B6C42700C6A543 /* hellome */,
+				B359148229B6C42800C6A543 /* hellomeTests */,
+				B359148C29B6C42800C6A543 /* hellomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B359147129B6C42700C6A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B359147E29B6C42800C6A543 /* Preview Assets.xcassets in Resources */,
+				B359147B29B6C42800C6A543 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359148129B6C42800C6A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359148B29B6C42800C6A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B359146F29B6C42700C6A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B359147929B6C42700C6A543 /* ContentView.swift in Sources */,
+				B359147729B6C42700C6A543 /* hellomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359147F29B6C42800C6A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B359148829B6C42800C6A543 /* hellomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359148929B6C42800C6A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B359149229B6C42800C6A543 /* hellomeUITests.swift in Sources */,
+				B359149429B6C42800C6A543 /* hellomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B359148529B6C42800C6A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B359147229B6C42700C6A543 /* hellome */;
+			targetProxy = B359148429B6C42800C6A543 /* PBXContainerItemProxy */;
+		};
+		B359148F29B6C42800C6A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B359147229B6C42700C6A543 /* hellome */;
+			targetProxy = B359148E29B6C42800C6A543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B359149529B6C42800C6A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B359149629B6C42800C6A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B359149829B6C42800C6A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B359149929B6C42800C6A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B359149B29B6C42800C6A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellome";
+			};
+			name = Debug;
+		};
+		B359149C29B6C42800C6A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellome";
+			};
+			name = Release;
+		};
+		B359149E29B6C42800C6A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellome;
+			};
+			name = Debug;
+		};
+		B359149F29B6C42800C6A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B359146E29B6C42700C6A543 /* Build configuration list for PBXProject "hellome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B359149529B6C42800C6A543 /* Debug */,
+				B359149629B6C42800C6A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B359149729B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B359149829B6C42800C6A543 /* Debug */,
+				B359149929B6C42800C6A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B359149A29B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B359149B29B6C42800C6A543 /* Debug */,
+				B359149C29B6C42800C6A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B359149D29B6C42800C6A543 /* Build configuration list for PBXNativeTarget "hellomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B359149E29B6C42800C6A543 /* Debug */,
+				B359149F29B6C42800C6A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B359146B29B6C42700C6A543 /* Project object */;
+}
