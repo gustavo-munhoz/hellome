@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B359147729B6C42700C6A543 /* hellomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147629B6C42700C6A543 /* hellomeApp.swift */; };
-		B359147929B6C42700C6A543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147829B6C42700C6A543 /* ContentView.swift */; };
+		B359147929B6C42700C6A543 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147829B6C42700C6A543 /* RegistrationView.swift */; };
 		B359147B29B6C42800C6A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147A29B6C42800C6A543 /* Assets.xcassets */; };
 		B359147E29B6C42800C6A543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147D29B6C42800C6A543 /* Preview Assets.xcassets */; };
 		B359148829B6C42800C6A543 /* hellomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359148729B6C42800C6A543 /* hellomeTests.swift */; };
 		B359149229B6C42800C6A543 /* hellomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149129B6C42800C6A543 /* hellomeUITests.swift */; };
 		B359149429B6C42800C6A543 /* hellomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */; };
+		B35914A329B6C4CD00C6A543 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35914A229B6C4CD00C6A543 /* User.swift */; };
+		B3F0658829B7602E00750694 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658729B7602E00750694 /* ProfileView.swift */; };
+		B3F0658A29B7ED4000750694 /* InteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658929B7ED4000750694 /* InteractionView.swift */; };
+		B3F0658C29B7ED5000750694 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658B29B7ED5000750694 /* UserCard.swift */; };
+		B3F0658E29B8FA5000750694 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658D29B8FA5000750694 /* StartView.swift */; };
+		B3F0659029B9034900750694 /* WideBlackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658F29B9034900750694 /* WideBlackButton.swift */; };
+		B3F0659229B9145E00750694 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0659129B9145E00750694 /* LoginView.swift */; };
+		B3F5229129BA206300652EFE /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5229029BA206300652EFE /* AlertType.swift */; };
+		B3F5229329BA277E00652EFE /* UsersRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5229229BA277E00652EFE /* UsersRepo.swift */; };
+		B3F5229629BA60E000652EFE /* ExtensionIsHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5229529BA60E000652EFE /* ExtensionIsHidden.swift */; };
+		B3F5229829BB7FB600652EFE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5229729BB7FB600652EFE /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		B359147329B6C42700C6A543 /* hellome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359147629B6C42700C6A543 /* hellomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeApp.swift; sourceTree = "<group>"; };
-		B359147829B6C42700C6A543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B359147829B6C42700C6A543 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		B359147A29B6C42800C6A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B359147D29B6C42800C6A543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B359148329B6C42800C6A543 /* hellomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,17 @@
 		B359148D29B6C42800C6A543 /* hellomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B359149129B6C42800C6A543 /* hellomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITests.swift; sourceTree = "<group>"; };
 		B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B35914A229B6C4CD00C6A543 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B3F0658729B7602E00750694 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B3F0658929B7ED4000750694 /* InteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionView.swift; sourceTree = "<group>"; };
+		B3F0658B29B7ED5000750694 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		B3F0658D29B8FA5000750694 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		B3F0658F29B9034900750694 /* WideBlackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideBlackButton.swift; sourceTree = "<group>"; };
+		B3F0659129B9145E00750694 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B3F5229029BA206300652EFE /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		B3F5229229BA277E00652EFE /* UsersRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepo.swift; sourceTree = "<group>"; };
+		B3F5229529BA60E000652EFE /* ExtensionIsHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionIsHidden.swift; sourceTree = "<group>"; };
+		B3F5229729BB7FB600652EFE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +116,11 @@
 		B359147529B6C42700C6A543 /* hellome */ = {
 			isa = PBXGroup;
 			children = (
+				B3F5229929BB8C4A00652EFE /* images */,
+				B3F5229429BA60CC00652EFE /* lib */,
+				B35914A629B6D0F400C6A543 /* Views */,
+				B35914A029B6C49E00C6A543 /* Models */,
 				B359147629B6C42700C6A543 /* hellomeApp.swift */,
-				B359147829B6C42700C6A543 /* ContentView.swift */,
 				B359147A29B6C42800C6A543 /* Assets.xcassets */,
 				B359147C29B6C42800C6A543 /* Preview Content */,
 			);
@@ -125,6 +150,54 @@
 				B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */,
 			);
 			path = hellomeUITests;
+			sourceTree = "<group>";
+		};
+		B35914A029B6C49E00C6A543 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B35914A129B6C4AC00C6A543 /* User */,
+				B3F0658F29B9034900750694 /* WideBlackButton.swift */,
+				B3F5229029BA206300652EFE /* AlertType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B35914A129B6C4AC00C6A543 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B35914A229B6C4CD00C6A543 /* User.swift */,
+				B3F0658B29B7ED5000750694 /* UserCard.swift */,
+				B3F5229229BA277E00652EFE /* UsersRepo.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B35914A629B6D0F400C6A543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B359147829B6C42700C6A543 /* RegistrationView.swift */,
+				B3F0658729B7602E00750694 /* ProfileView.swift */,
+				B3F0658929B7ED4000750694 /* InteractionView.swift */,
+				B3F0658D29B8FA5000750694 /* StartView.swift */,
+				B3F0659129B9145E00750694 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3F5229429BA60CC00652EFE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B3F5229529BA60E000652EFE /* ExtensionIsHidden.swift */,
+				B3F5229729BB7FB600652EFE /* ImagePicker.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B3F5229929BB8C4A00652EFE /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B359147929B6C42700C6A543 /* ContentView.swift in Sources */,
+				B3F5229829BB7FB600652EFE /* ImagePicker.swift in Sources */,
+				B3F0658E29B8FA5000750694 /* StartView.swift in Sources */,
+				B3F0659029B9034900750694 /* WideBlackButton.swift in Sources */,
+				B359147929B6C42700C6A543 /* RegistrationView.swift in Sources */,
+				B3F0658C29B7ED5000750694 /* UserCard.swift in Sources */,
+				B3F5229629BA60E000652EFE /* ExtensionIsHidden.swift in Sources */,
 				B359147729B6C42700C6A543 /* hellomeApp.swift in Sources */,
+				B3F0658A29B7ED4000750694 /* InteractionView.swift in Sources */,
+				B35914A329B6C4CD00C6A543 /* User.swift in Sources */,
+				B3F5229329BA277E00652EFE /* UsersRepo.swift in Sources */,
+				B3F5229129BA206300652EFE /* AlertType.swift in Sources */,
+				B3F0659229B9145E00750694 /* LoginView.swift in Sources */,
+				B3F0658829B7602E00750694 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hellome/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U55BCTM6U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +514,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellome;
+				PRODUCT_BUNDLE_IDENTIFIER = frodeus.dev.hellome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,6 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hellome/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U55BCTM6U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.hellome;
+				PRODUCT_BUNDLE_IDENTIFIER = frodeus.dev.hellome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
