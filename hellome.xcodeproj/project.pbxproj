@@ -11,9 +11,6 @@
 		B359147929B6C42700C6A543 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359147829B6C42700C6A543 /* RegistrationView.swift */; };
 		B359147B29B6C42800C6A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147A29B6C42800C6A543 /* Assets.xcassets */; };
 		B359147E29B6C42800C6A543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B359147D29B6C42800C6A543 /* Preview Assets.xcassets */; };
-		B359148829B6C42800C6A543 /* hellomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359148729B6C42800C6A543 /* hellomeTests.swift */; };
-		B359149229B6C42800C6A543 /* hellomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149129B6C42800C6A543 /* hellomeUITests.swift */; };
-		B359149429B6C42800C6A543 /* hellomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */; };
 		B35914A329B6C4CD00C6A543 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35914A229B6C4CD00C6A543 /* User.swift */; };
 		B3F0658829B7602E00750694 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658729B7602E00750694 /* ProfileView.swift */; };
 		B3F0658A29B7ED4000750694 /* InteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0658929B7ED4000750694 /* InteractionView.swift */; };
@@ -51,10 +48,7 @@
 		B359147A29B6C42800C6A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B359147D29B6C42800C6A543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B359148329B6C42800C6A543 /* hellomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B359148729B6C42800C6A543 /* hellomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeTests.swift; sourceTree = "<group>"; };
 		B359148D29B6C42800C6A543 /* hellomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B359149129B6C42800C6A543 /* hellomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITests.swift; sourceTree = "<group>"; };
-		B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B35914A229B6C4CD00C6A543 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F0658729B7602E00750694 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B3F0658929B7ED4000750694 /* InteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionView.swift; sourceTree = "<group>"; };
@@ -97,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				B359147529B6C42700C6A543 /* hellome */,
-				B359148629B6C42800C6A543 /* hellomeTests */,
-				B359149029B6C42800C6A543 /* hellomeUITests */,
 				B359147429B6C42700C6A543 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,23 +125,6 @@
 				B359147D29B6C42800C6A543 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B359148629B6C42800C6A543 /* hellomeTests */ = {
-			isa = PBXGroup;
-			children = (
-				B359148729B6C42800C6A543 /* hellomeTests.swift */,
-			);
-			path = hellomeTests;
-			sourceTree = "<group>";
-		};
-		B359149029B6C42800C6A543 /* hellomeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B359149129B6C42800C6A543 /* hellomeUITests.swift */,
-				B359149329B6C42800C6A543 /* hellomeUITestsLaunchTests.swift */,
-			);
-			path = hellomeUITests;
 			sourceTree = "<group>";
 		};
 		B35914A029B6C49E00C6A543 /* Models */ = {
@@ -350,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B359148829B6C42800C6A543 /* hellomeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B359149229B6C42800C6A543 /* hellomeUITests.swift in Sources */,
-				B359149429B6C42800C6A543 /* hellomeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
